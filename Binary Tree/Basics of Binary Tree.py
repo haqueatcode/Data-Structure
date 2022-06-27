@@ -16,10 +16,14 @@ Basics of Binary Tree:
 """
 
 class Node:
-    def __init__(self, value):
-        self.left = None
-        self.right = None
-        self.data = value
+    def __init__(self, data, left = None, right = None):
+        self.left = left
+        self.right = right
+        self.data = data
+        
+class BST:
+    def __init__(self):
+        self.root = None
         
         
 if __name__ == "__main__":
